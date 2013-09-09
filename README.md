@@ -4,7 +4,8 @@ backbone-dragandrop-delegation
 A consistent drag and drop across browsers using native like events. Read more about it on:
 http://christianalfoni.com/2013/09/09/delegated-drag-and-drop-for-backbone/
 
-*Note* : Does not work on IE8 er below
+*Note* : Does not work on IE8 er below. It is a jQuery plugin so it requires jQuery, which also Backbone does... so...
+thought I should mentioned it nevertheless :-)
 
 ```javascript
   Backbone.View.extend({
