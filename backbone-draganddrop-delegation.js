@@ -37,8 +37,8 @@
                     isDragging = true;
                     $clone = $el.clone().css({
                         position: 'absolute',
-                        left: event.clientX + 5,
-                        top: event.clientY + 5
+                        translateX: event.clientX + 5,
+                        translateY: event.clientY + 5
                     }).appendTo('body');
                     // Will get the returned value of any dragstart
                     // triggered event and set it as data
