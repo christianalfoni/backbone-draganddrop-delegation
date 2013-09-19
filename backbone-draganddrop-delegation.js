@@ -40,6 +40,8 @@
                         translateX: event.clientX + 5,
                         translateY: event.clientY + 5
                     }).appendTo('body');
+                    // Make sure nothing can be input while dragging, causing drag stop
+                    $('input, textarea').blur();
                     // Will get the returned value of any dragstart
                     // triggered event and set it as data
                     $el.trigger('dragstart', [data, $clone, $el]);
