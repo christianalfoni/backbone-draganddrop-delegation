@@ -1,6 +1,8 @@
 backbone-dragandrop-delegation
 ==============================
 
+[![Join the chat at https://gitter.im/christianalfoni/backbone-draganddrop-delegation](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/christianalfoni/backbone-draganddrop-delegation?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 A consistent drag and drop across browsers using native like events. Read more about it on:
 http://christianalfoni.com/2013/09/09/delegated-drag-and-drop-for-backbone/
 
